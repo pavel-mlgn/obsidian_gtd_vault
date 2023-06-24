@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#task",
+      "color": {
+        "a": 1,
+        "rgb": 1327103
+      }
+    },
+    {
+      "query": "tag:#project",
+      "color": {
+        "a": 1,
+        "rgb": 1358594
+      }
+    },
+    {
+      "query": "tag:#reference/person",
+      "color": {
+        "a": 1,
+        "rgb": 16108748
+      }
+    },
+    {
+      "query": "tag:#meeting",
+      "color": {
+        "a": 1,
+        "rgb": 16755015
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.747217559715946,
+  "lineSizeMultiplier": 1.26726920593932,
+  "collapse-forces": true,
+  "centerStrength": 0.532214331826985,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 197,
+  "scale": 1,
+  "close": false
+}

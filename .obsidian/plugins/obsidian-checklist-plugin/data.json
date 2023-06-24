@@ -1,0 +1,15 @@
+{
+  "todoPageName": "task\nproject",
+  "showChecked": false,
+  "showAllTodos": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "tag",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "a->z",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "!Templates/**",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [],
+  "_hiddenTags": []
+}

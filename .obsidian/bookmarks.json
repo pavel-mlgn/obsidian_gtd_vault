@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1687266418331,
+      "path": "test.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1687266435713,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1687270313188,
+          "path": "Inbox Notes.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1687286912563,
+          "path": "Persons.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1687288363039,
+          "path": "Todo List.md"
+        }
+      ],
+      "title": "Reports"
+    },
+    {
+      "type": "file",
+      "ctime": 1687423472782,
+      "path": "Useful links.md"
+    }
+  ]
+}
