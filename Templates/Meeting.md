@@ -15,9 +15,9 @@
 # Attendees
 
 # Agenda
-%%  Write down the nain topic to discuss %%
+%%  Write down the main topic to discuss %%
 
 
 # Notes
-%%  Cover any key information disscused in the meeting %%
+%%  Cover any key information discussed in the meeting %%
 
