@@ -3,11 +3,19 @@ phone: +44 1632 960836
 department: User Support
 position_: Help Desk Technician
 ---
-```dataview 
-	TABLE without id
-	file.outlinks AS "OUTGOING", 
-	file.inlinks AS "BACKLINKS"
-	WHERE file.name = this.file.name 
+**OUTGOING**
+```dataview
+	LIST without id
+	link(meta(out).path)
+	WHERE file.name = this.file.name
+	flatten file.outlinks as out
+```
+**BACKLINKS**
+```dataview
+	LIST without id
+	link(meta(in).path)
+	WHERE file.name = this.file.name
+	flatten file.inlinks as in
 ```
 
 #reference/person 
