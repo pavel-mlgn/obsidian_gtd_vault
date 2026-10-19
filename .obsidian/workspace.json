@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6e3f6e7ac07b824",
+        "id": "b81640b03e6c26bd",
         "type": "tabs",
         "children": [
           {
-            "id": "a3e9524fb68fe736",
+            "id": "26015dd006ed297e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -38,7 +36,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -55,8 +58,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ]
@@ -72,8 +79,13 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -88,10 +100,13 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,10 +126,92 @@
             "type": "leaf",
             "state": {
               "type": "reminder-list",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
+            }
+          },
+          {
+            "id": "50f69901713a3ada",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c9aaf52f64aa5467",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "82239a3c806f65a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1d357041fbd1bcb1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "f4ea7d26e5a2f4f4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "4d47b64370253eb2",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "2b8c0bb666842994",
@@ -126,7 +223,9 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ]
@@ -137,6 +236,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -145,13 +245,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3e9524fb68fe736",
+  "active": "26015dd006ed297e",
   "lastOpenFiles": [
-    "@Robert.md",
-    "Team Meeting.md",
-    "Plan.md",
+    "Demo/@Robert.md",
+    "Demo/@Mary.md",
+    "Demo/@Angela.md",
+    "Dashboards/Useful links.md",
+    "Dashboards/Inbox Notes.md",
+    "Dashboards/Todo List.md",
+    "Dashboards/Persons.md",
+    "Demo/Team Meeting.md",
+    "Demo/Plan.md",
     "README.md",
-    "Embed content.md",
+    "Demo/Embed content.md",
     "Templates/Inbox.md",
     "2023-06-22.md",
     "Templates/Meeting.md",
@@ -160,19 +266,13 @@
     "Templates/Ref-Person.md",
     "Templates/Ref-Instruction.md",
     "Templates/Task.md",
-    "Useful links.md",
-    "Inbox Notes.md",
-    "Todo List.md",
-    "Persons.md",
-    "Idea.md",
-    "Thought.md",
-    "@Mary.md",
-    "@Sam.md",
-    "Single action.md",
-    "My Reference.md",
-    "First Project.md",
-    "Task Three.md",
-    "Task Two.md",
+    "Demo/Idea.md",
+    "Demo/Thought.md",
+    "Demo/@Sam.md",
+    "Demo/Single action.md",
+    "Demo/My Reference.md",
+    "Demo/First Project.md",
+    "Demo/Task Three.md",
     "Attachments/Pasted image 20220804160208.png",
     "Attachments/Pasted image 20220805181157.png",
     "Attachments/Pasted image 20220805182457.png",

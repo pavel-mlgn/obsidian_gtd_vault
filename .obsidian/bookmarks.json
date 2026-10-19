@@ -12,17 +12,17 @@
         {
           "type": "file",
           "ctime": 1687270313188,
-          "path": "Inbox Notes.md"
+          "path": "Dashboards/Inbox Notes.md"
         },
         {
           "type": "file",
           "ctime": 1687286912563,
-          "path": "Persons.md"
+          "path": "Dashboards/Persons.md"
         },
         {
           "type": "file",
           "ctime": 1687288363039,
-          "path": "Todo List.md"
+          "path": "Dashboards/Todo List.md"
         }
       ],
       "title": "Reports"
@@ -30,7 +30,7 @@
     {
       "type": "file",
       "ctime": 1687423472782,
-      "path": "Useful links.md"
+      "path": "Dashboards/Useful links.md"
     }
   ]
 }

@@ -12,13 +12,21 @@
    ```
 2. В Obsidian выберите **Open folder as vault** и укажите эту папку.
 3. Obsidian спросит, доверяете ли вы автору хранилища. Нажмите **Trust author and enable plugins**, иначе плагины не включатся и дашборды останутся пустыми.
-4. Откройте заметку `Todo List`. Это главный дашборд со всеми задачами, проектами и встречами.
+4. Откройте заметку `Dashboards/Todo List`. Это главный дашборд со всеми задачами, проектами и встречами.
 
 ## Что внутри
 
+```
+Dashboards/    дашборды: задачи, входящие, контакты, ссылки
+Demo/          демо-заметки, на которых видно, как все работает
+Templates/     шаблоны заметок
+Attachments/   вложения: картинки, PDF
+.obsidian/     настройки и плагины
+```
+
 Каждая заметка относится к одному из пяти типов. Тип задает тег, а новая заметка создается из шаблона в папке `Templates`.
 
-| Тип | Тег | Шаблон | Пример в хранилище |
+| Тип | Тег | Шаблон | Пример в `Demo` |
 | --- | --- | --- | --- |
 | Входящие | `#inbox` | `Inbox` | `Idea`, `Plan`, `Thought` |
 | Задача | `#task/now`, `#task/next`, `#task/waiting`, `#task/someday` | `Task` | `Task One`, `Task Two`, `Single action` |
@@ -26,7 +34,7 @@
 | Встреча | `#meeting` | `Meeting` | `Team Meeting` |
 | Справка | `#reference`, `#reference/person`, `#reference/instruction`, `#reference/document` | `Ref-Person`, `Ref-Instruction`, `Ref-Document` | `My Reference`, `@Angela`, `Embed content` |
 
-Дашборды собраны в закладках (Bookmarks):
+Дашборды лежат в папке `Dashboards` и собраны в закладках (Bookmarks):
 - `Todo List` - активные задачи по статусам, проекты, встречи и последние выполненные задачи;
 - `Inbox Notes` - все входящие, которые еще не разобраны;
 - `Persons` - таблица контактов;
@@ -48,10 +56,7 @@
 
 ## Как начать свою систему
 
-Демо-заметки нужны, чтобы посмотреть, как все работает. Когда разберетесь, удалите их и оставьте:
-- папки `Templates` и `.obsidian` (шаблоны и настройки);
-- папку `Attachments`, но без демо-картинок;
-- дашборды `Todo List`, `Inbox Notes` и `Persons`.
+Демо-заметки нужны, чтобы посмотреть, как все работает. Когда разберетесь, удалите папку `Demo` и демо-картинки из `Attachments`. Шаблоны, дашборды и настройки останутся, а новые заметки будут создаваться в корне хранилища.
 
 ## Лицензия
 
@@ -63,4 +68,4 @@
 
 A ready-to-use [Obsidian](https://obsidian.md/) vault for task management with the Getting Things Done method. Tasks, projects, meetings and reference notes are linked to each other, and the Dataview, Checklist and Reminder plugins turn them into dashboards, task lists and reminders. The full description is in the [article on Habr](https://habr.com/ru/articles/743628/) (in Russian).
 
-**Quick start.** Download the repository (**Code -> Download ZIP**), open the folder in Obsidian with **Open folder as vault**, click **Trust author and enable plugins**, then open the `Todo List` note.
+**Quick start.** Download the repository (**Code -> Download ZIP**), open the folder in Obsidian with **Open folder as vault**, click **Trust author and enable plugins**, then open the `Dashboards/Todo List` note. When you are ready to start your own system, delete the `Demo` folder.
